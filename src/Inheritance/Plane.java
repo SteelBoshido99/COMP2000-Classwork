@@ -1,4 +1,4 @@
-package com;
+package Inheritance;
 
 
 public class Plane extends Vehicle {

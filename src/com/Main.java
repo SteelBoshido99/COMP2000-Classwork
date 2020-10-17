@@ -1,15 +1,20 @@
 package com;
 
+import Polymorphism.MoveableClass;
+import Polymorphism.OverrideClass;
+
 public class Main {
 
     public static void main(String[] args) {
 
-    Car mustang = new Car();
-    mustang.move();
+    MoveableClass Thing = new MoveableClass();
+    Thing.move();
+    Thing.move(6,9);
+
+
+    OverrideClass Thing2 = new OverrideClass();
+    Thing2.move();
+
 
     }
-
-
-
-
 }
