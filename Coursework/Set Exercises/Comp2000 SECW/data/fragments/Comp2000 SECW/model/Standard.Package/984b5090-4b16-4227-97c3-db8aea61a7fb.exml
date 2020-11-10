@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comp2000secw2" version="4">
+  <OBJECT>
+    <ID name="comp2000secw2" mc="Standard.Package" uid="984b5090-4b16-4227-97c3-db8aea61a7fb"/>
+    <PID name="Comp2000 SECW" mc="Standard.Project" uid="171bbfe0-fcf2-48c2-8e3e-183b7841e902"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comp2000secw2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Page" mc="Standard.Class" uid="64bcd223-944d-478f-9ee0-7867a63866cd"/>
+        <COMPID name="AccountPage" mc="Standard.Class" uid="f25f837f-96c7-4e1f-a71e-cc89f915bbaa"/>
+        <COMPID name="ColumnDisplay" mc="Standard.Class" uid="a7b17d08-0d70-4815-b7a6-b991f67fb257"/>
+        <COMPID name="CataloguePage" mc="Standard.Class" uid="eb0fc0b5-2a16-453a-959f-9ccf610b7fb4"/>
+        <COMPID name="HomePage" mc="Standard.Class" uid="755d6a8c-1f2b-4b60-bc3e-32a1e74baa57"/>
+        <COMPID name="IDisplayBehaviour" mc="Standard.Interface" uid="598a4bcf-425d-43d0-a034-c69a9ac87fee"/>
+        <COMPID name="ListDisplay" mc="Standard.Class" uid="48016843-662b-4a1f-8701-951b1ca35d6d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Set Exercise 2" mc="Standard.ClassDiagram" uid="1f3df79d-a8bf-4e40-aac8-f1deb9b638a9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
