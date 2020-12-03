@@ -1,7 +1,6 @@
-#Mon Nov 09 23:18:03 GMT 2020
+#Thu Dec 03 14:46:44 GMT 2020
 org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/ramon/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/ramon/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams1='Set Exercise 2' {1f3df79d-a8bf-4e40-aac8-f1deb9b638a9} Standard.ClassDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams0='comp2000 secw Class diagram' {8887a944-6142-4056-913e-5eb020111d18} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='IOffersPage' {1f3df79d-a8bf-4e40-aac8-f1deb9b638a9} Standard.ClassDiagram
 org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/ramon/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
 org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///C\:/Users/ramon/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom

@@ -21,12 +21,16 @@
         <COMPID name="HomePage" mc="Standard.Class" uid="755d6a8c-1f2b-4b60-bc3e-32a1e74baa57"/>
         <COMPID name="IDisplayBehaviour" mc="Standard.Interface" uid="598a4bcf-425d-43d0-a034-c69a9ac87fee"/>
         <COMPID name="ListDisplay" mc="Standard.Class" uid="48016843-662b-4a1f-8701-951b1ca35d6d"/>
+        <COMPID name="IOffers" mc="Standard.Interface" uid="329117fd-038c-492e-a813-d7b14ad27e6b"/>
+        <COMPID name="IOffersPage" mc="Standard.Interface" uid="7513e8da-23c4-48c8-b003-9f7456e1fefb"/>
+        <COMPID name="Offers" mc="Standard.Class" uid="58d291d4-dbc5-42a4-97f0-7bbeee8fd9cb"/>
+        <COMPID name="OffersPage" mc="Standard.Class" uid="51f5bc51-72f3-44f5-b127-f18a3375148b"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
       </LINK>
       <COMP relation="Product">
-        <COMPID name="Set Exercise 2" mc="Standard.ClassDiagram" uid="1f3df79d-a8bf-4e40-aac8-f1deb9b638a9"/>
+        <COMPID name="IOffersPage" mc="Standard.ClassDiagram" uid="1f3df79d-a8bf-4e40-aac8-f1deb9b638a9"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
