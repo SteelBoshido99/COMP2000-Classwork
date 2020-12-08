@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="KeyboardShortcuts" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Image" version="4">
   <OBJECT>
-    <ID name="KeyboardShortcuts" mc="Standard.Class" uid="f58b4afd-a72a-4ef4-b387-4c3feff5fc8e"/>
-    <PID name="comp2000se3" mc="Standard.Package" uid="4cba4eeb-f0bd-4382-b8fb-5e428935ba54"/>
+    <ID name="Image" mc="Standard.Class" uid="d63b3bf9-be19-4956-9158-64ecce7dcd4e"/>
+    <PID name="comp2000 secw1" mc="Standard.Package" uid="38633083-4dbc-4ea6-ba83-6c7defcc0456"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[KeyboardShortcuts]]></ATT>
+      <ATT name="Name"><![CDATA[Image]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="setCommand" mc="Standard.Operation" uid="e505c340-e16a-4a50-b277-cb8289724a80"/>
+          <ID name="ImageList" mc="Standard.Operation" uid="a1f0603a-5672-442c-8d53-388d9fedb196"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,17 +25,17 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[setCommand]]></ATT>
+            <ATT name="Name"><![CDATA[ImageList]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="value" mc="Standard.Parameter" uid="c00845ac-b714-4ca8-a8af-bbceaa3716df"/>
+                <ID name="ImageID" mc="Standard.Parameter" uid="3f467f62-2592-446a-982d-18a3d368f713"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">Inout</ATT>
+                  <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
                   <ATT name="DefaultValue"></ATT>
                   <ATT name="IsOrdered">false</ATT>
@@ -43,12 +43,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[value]]></ATT>
+                  <ATT name="Name"><![CDATA[ImageID]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="ICommand" mc="Standard.Interface" uid="67c97767-eb3d-483c-8556-1dd42964e906"/>
+                    <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -58,7 +58,7 @@
       </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="command" mc="Standard.AssociationEnd" uid="c96694d2-6f4e-4bcc-8b8c-850cf8f70943"/>
+          <ID name="display" mc="Standard.AssociationEnd" uid="924dc77b-301b-4137-b98a-87d8ac3d4a25"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -67,20 +67,20 @@
             <ATT name="IsOrdered">false</ATT>
             <ATT name="IsUnique">false</ATT>
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[command]]></ATT>
+            <ATT name="Name"><![CDATA[display]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="ICommand" mc="Standard.Interface" uid="67c97767-eb3d-483c-8556-1dd42964e906"/>
+              <ID name="Display" mc="Standard.Class" uid="db55038b-ad3d-4d06-9692-90bf9294b1b8"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="34208941-4a03-47ec-87ed-df84b7f4cf9e"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="9ebe3e61-eff2-494f-ac63-559fe30d221f"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -88,8 +88,8 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
                   <ATT name="IsAbstract">false</ATT>
@@ -98,11 +98,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="command" mc="Standard.AssociationEnd" uid="c96694d2-6f4e-4bcc-8b8c-850cf8f70943"/>
+                    <COMPID name="display" mc="Standard.AssociationEnd" uid="924dc77b-301b-4137-b98a-87d8ac3d4a25"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="fe82b993-ad53-43b7-a975-79cd90404057"/>
+                      <ID name="" mc="Standard.Association" uid="15047af7-c792-462c-ad42-3667725a2fea"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -114,7 +114,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="fe82b993-ad53-43b7-a975-79cd90404057"/>
+              <COMPID name="" mc="Standard.Association" uid="15047af7-c792-462c-ad42-3667725a2fea"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
