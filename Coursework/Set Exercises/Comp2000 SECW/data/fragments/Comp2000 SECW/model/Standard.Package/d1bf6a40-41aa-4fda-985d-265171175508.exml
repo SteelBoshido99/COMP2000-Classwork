@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="comp2000secw3" version="4">
+  <OBJECT>
+    <ID name="comp2000secw3" mc="Standard.Package" uid="d1bf6a40-41aa-4fda-985d-265171175508"/>
+    <PID name="Comp2000 SECW" mc="Standard.Project" uid="171bbfe0-fcf2-48c2-8e3e-183b7841e902"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[comp2000secw3]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="KeyboardShortcuts" mc="Standard.Class" uid="d53faada-c230-46db-994b-0184392636cf"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="comp2000secw3 Class diagram" mc="Standard.ClassDiagram" uid="faca7d18-3079-46d0-aa94-4c1fb737979d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

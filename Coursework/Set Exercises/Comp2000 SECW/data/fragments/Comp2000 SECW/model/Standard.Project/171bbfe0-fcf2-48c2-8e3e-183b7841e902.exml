@@ -12,6 +12,7 @@
       <COMP relation="Model">
         <COMPID name="comp2000 secw1" mc="Standard.Package" uid="38633083-4dbc-4ea6-ba83-6c7defcc0456"/>
         <COMPID name="comp2000secw2" mc="Standard.Package" uid="984b5090-4b16-4227-97c3-db8aea61a7fb"/>
+        <COMPID name="comp2000secw3" mc="Standard.Package" uid="d1bf6a40-41aa-4fda-985d-265171175508"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="Comp2000 SECW" mc="Infrastructure.DiagramSet" uid="cfb6e798-7298-45ca-b0a8-d27b2f9a6ce6"/>
