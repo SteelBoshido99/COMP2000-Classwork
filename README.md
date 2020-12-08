@@ -1,2 +1,2 @@
-# COMP2000-Classwork
+# COMP2000-classwork
 This will hold classwork of COMP2000
