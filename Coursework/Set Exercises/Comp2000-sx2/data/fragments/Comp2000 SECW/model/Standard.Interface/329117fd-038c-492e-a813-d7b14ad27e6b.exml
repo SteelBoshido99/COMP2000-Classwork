@@ -31,7 +31,7 @@
               <OBJECT>
                 <ID name="IOffersPage" mc="Standard.Parameter" uid="0af7fe8e-7fee-4c0e-960f-21501384af02"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -70,7 +70,7 @@
               <OBJECT>
                 <ID name="IOffersPage" mc="Standard.Parameter" uid="d84607e5-9014-4884-aa11-a2284da1a5f4"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
