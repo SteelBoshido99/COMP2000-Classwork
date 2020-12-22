@@ -47,7 +47,7 @@
               <OBJECT>
                 <ID name="searchItem" mc="Standard.Parameter" uid="f7ef14dc-b25b-4a47-b4ab-1b6e6cbdbd57"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
                   <ATT name="TypeConstraint"></ATT>

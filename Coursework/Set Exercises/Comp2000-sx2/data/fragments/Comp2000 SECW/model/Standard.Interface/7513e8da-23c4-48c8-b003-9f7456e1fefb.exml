@@ -31,7 +31,7 @@
               <OBJECT>
                 <ID name="data" mc="Standard.Parameter" uid="42afcbbf-7f76-47bd-bbf2-2b554f02ae33"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>

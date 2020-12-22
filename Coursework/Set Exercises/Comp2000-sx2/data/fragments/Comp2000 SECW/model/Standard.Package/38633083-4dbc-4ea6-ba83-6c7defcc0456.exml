@@ -18,21 +18,15 @@
         <COMPID name="PhotoDisplay" mc="Standard.Class" uid="8bd79312-f85e-4b60-93f9-e7becb470044"/>
         <COMPID name="Filter" mc="Standard.Class" uid="286f3beb-4217-4b9a-8db3-d9d193b02d97"/>
         <COMPID name="Display" mc="Standard.Class" uid="db55038b-ad3d-4d06-9692-90bf9294b1b8"/>
-        <COMPID name="Tiled List" mc="Standard.Class" uid="bd0d3348-6611-454a-893e-197e0a8f6bc4"/>
         <COMPID name="Image" mc="Standard.Class" uid="d63b3bf9-be19-4956-9158-64ecce7dcd4e"/>
         <COMPID name="Popup" mc="Standard.Class" uid="1371303a-c090-4375-9aa6-fe4ab5ab0b1f"/>
-        <COMPID name="Carousel" mc="Standard.Class" uid="5b58d48c-8a90-416f-9791-87e090c3aa56"/>
-        <COMPID name="Users" mc="Standard.Class" uid="b1f2b213-5816-45d6-96f7-945d049916c4"/>
-        <COMPID name="Cloud" mc="Standard.Class" uid="b176f3c9-6925-42a5-a124-127fbda5e73c"/>
-        <COMPID name="Filter" mc="Standard.Class" uid="58898e87-5b65-4b43-bdd1-0beeee64bcc6"/>
         <COMPID name="Vintage" mc="Standard.Class" uid="60d079dd-69a9-43cf-9038-8cbfa9c9937a"/>
         <COMPID name="Technicolour" mc="Standard.Class" uid="a59ac117-e1b7-40be-a1a2-f0100842b87f"/>
         <COMPID name="Old Paper" mc="Standard.Class" uid="df9e27b1-baf6-41e9-b4bb-bdb69b635c35"/>
         <COMPID name="Edge Detect" mc="Standard.Class" uid="d890d070-cf64-4d82-86b7-630e551f0d49"/>
-        <COMPID name="Social Media" mc="Standard.Class" uid="59730134-daae-4866-b396-154e7396ec05"/>
-        <COMPID name="Facebook" mc="Standard.Class" uid="bc80a889-4345-4019-b77f-4bdae083d3a5"/>
-        <COMPID name="Twitter" mc="Standard.Class" uid="69819467-5f4c-4b8c-9a1b-ce494341dd0c"/>
-        <COMPID name="Instagram" mc="Standard.Class" uid="a1e748a1-5daa-461f-adc1-a4bc7a2a18ec"/>
+        <COMPID name="Filter" mc="Standard.Interface" uid="5f7b4a02-4795-45c4-9c23-8578c677e5fe"/>
+        <COMPID name="Carousel" mc="Standard.Class" uid="7f925a6b-bf7c-4d46-9b54-17b96af7d255"/>
+        <COMPID name="TiledList" mc="Standard.Class" uid="1b7e130e-9ff6-43f3-83ad-12e4d32933c0"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>

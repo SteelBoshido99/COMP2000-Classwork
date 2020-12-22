@@ -47,7 +47,7 @@
               <OBJECT>
                 <ID name="username" mc="Standard.Parameter" uid="545f3776-6d0d-449e-8e3e-043e3a449716"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
@@ -93,7 +93,7 @@
               <OBJECT>
                 <ID name="password" mc="Standard.Parameter" uid="ed0379b4-80d7-453e-9a62-596b0fbcb1e5"/>
                 <ATTRIBUTES>
-                  <ATT name="ParameterPassing">In</ATT>
+                  <ATT name="ParameterPassing">Out</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="TypeConstraint"></ATT>
